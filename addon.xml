@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.laylowfm" name="[COLOR white]LAYLOW FM[/COLOR]" version="0.1" provider-name="[COLOR white]www.laylowfm.com[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.requests"   version="2.6.0"/>
+	<import addon="script.module.beautifulsoup" version="3.2.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="laylow.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Laylow FM - West Londons Finest Community Radio Station.</summary>
+    <description lang="en">The Offical Laylow FM Kodi Plugin</description>
+    <language>en</language>
+    <platform>all</platform>
+    <website>www.laylowfm.com</website>
+  </extension>
+</addon>
